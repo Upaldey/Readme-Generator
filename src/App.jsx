@@ -20,7 +20,7 @@ function App() {
   }, [sections]);
 
   return (
-    <Router basename="/Readme-Generator">
+    <Router>
       <div className="min-h-screen flex flex-col font-sans">
         <Header />
         <Routes>
