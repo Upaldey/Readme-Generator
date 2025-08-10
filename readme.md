@@ -12,7 +12,7 @@ This project is deployed on [Vercel](https://vercel.com) and configured for smoo
 - 🔄 SPA routing support (no 404 on refresh).
 
 ## 🌐 Live Demo
-🔗 **[View Website]([https://<your-vercel-project-name>.vercel.app](https://readme-generator-hlwlj917h-upas-projects-7f75dec8.vercel.app/editor))**
+🔗 **[View Website]([[https://<your-vercel-project-name>.vercel.app](https://readme-generator-hlwlj917h-upas-projects-7f75dec8.vercel.app/editor)](https://readme-generator-hlwlj917h-upas-projects-7f75dec8.vercel.app/editor))**
 
 
 ## 📸 Screenshot
