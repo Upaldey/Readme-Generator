@@ -14,6 +14,7 @@ This project is deployed on [Vercel](https://vercel.com) and configured for smoo
 ## 📸 Screenshot
 
 ![App Screenshot](public/screenshot.png)
+![App Screenshot](public/screenshot1.png)
 
 ## 🛠 Installation
 
