@@ -1,4 +1,7 @@
 import { create } from "zustand";
+import ALL_SECTIONS from "../data/availableSections";
+const defaultState = [ALL_SECTIONS[0]];
+
 const getInitialState = () => {
   try {
     const storedState = localStorage.getItem("readme-builder-state");
@@ -7,7 +10,7 @@ const getInitialState = () => {
     console.error("Could not parse state from localStorage", error);
   }
   // Default initial state
-  return [ALL_SECTIONS[0], ALL_SECTIONS[1]];
+  return defaultState;
 };
 
 const useReadmeStore = create((set) => ({
@@ -40,6 +43,7 @@ const useReadmeStore = create((set) => ({
       ];
       return { sections: newSections };
     }),
+  resetSections: () => set({ sections: defaultState }),
 }));
 
 export default useReadmeStore;
